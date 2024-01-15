@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="widht-device-widht, initial-scale=1.0">
+        <meta http-equiv="X-UA-Complatible" content="ie=edge">
+        <title>DAFTAR DRAMA KOREA</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="java.js"></script>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                <li><a height="190">DRAKOR</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#daftar">daftar</a></li>
+                    <li><a href="#list">list</a> </li>
+                </ul>
+            </nav>
+            <h1><span class="star">LIST</span> DRAMA KOREA</h1>
+            <p>DRAMA KOREA</p>
+            <a href="#list" class="cta">masukan daftar drakor</a>
+        </header>
+        <main>
+            <section id="services">
+                <h2>SUBTITLE</h2>
+                <div class="service">
+                    <h3>SUBTITLE</h3>
+                    <p><input type="radio" name="B. INDONESIA" value="B. INDONESIA"/>B. INDONESIA</p>
+           </div>
+                <div class="service">
+                    <h3>SUBTITLE</h3>
+                    <p><input type="radio" name="B. KOREA" value="B. KOREA"/>B. KOREA</p>
+                </div>
+                <div class="service">
+                    <h3>SUBTITLE</h3>
+                    <p><input type="radio" name="B. INGGRIS" value="B. INGGRIS"/>B. INGGRIS</p>
+                </div>
+                </section>
+            <section id="about">
+                <h2>about</h2>
+                <p>seri televisi dengan bahasa Korea, umumnya dibuat di negara Korea Selatan</p>
+                <img src="g.jpg" width="40%" alt="about">
+                <p>APLIKASI MEMASUKAN DAFTAR DRAMA KOREA YANG SUDAH DI TONTON</p>
+            </section>
+            <section id="daftar">
+                <h2>DAFTAR</h2>
+                <table border="1">
+
+		<tr>
+
+			<th>No</th>
+
+			<th>Judul</th>
+
+			<th>Tahun</th>
+
+			<th>Deskripsi</th>
+
+		</tr>
+
+		<tr>
+
+			<td>1</td>
+
+			<td>Itaewon Class</td>
+
+			<td>2023</td>
+
+			<td>MANTAN TERPIDANA</td>
+
+		</tr>
+
+	</table>
+
+
+
+
+         </section>
+         <section id="list">
+             <h2>LIST</h2>
+             <from action="sumbit-from.php" method="post">
+                 <input type="text" name="nama" placeholder="judul">
+                 <input type="email" name="email" placeholder="tahun">
+                 <textarea name="massage" placeholder="deskripsi"></textarea>
+                 <button class="button" type="sumbit">sumbit</button>
+                </from>
+            </section>
+        </main>
+        <footer>
+            <p>STAR LIGHT COMPANY</p>
+        </footer>
+    </body>
+</html>
